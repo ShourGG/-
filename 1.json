@@ -35,7 +35,10 @@
         }
       },
       "author": "开发团队",
-      "priority": "high",
+      "priority": {
+        "zh": "高",
+        "en": "high"
+      },
       "icon": "update-icon.png"
     },
     {
@@ -51,7 +54,10 @@
         "en": "After creating the archive in single-host mode, please click \"Save\". Do not click \"Save and Restart\" or \"Save and Generate New World\". Instead, return to the homepage to restart and reset. Multi-host mode is not involved."
       },
       "author": "测试团队",
-      "priority": "medium",
+      "priority": {
+        "zh": "中",
+        "en": "medium"
+      },
       "icon": "bug-icon.png"
     }
   ]
