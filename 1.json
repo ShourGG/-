@@ -1,105 +1,158 @@
 {
     "announce": [
-      {
-        "icon": "https://example.com/pinned1.png",
-        "title": {
-          "zh": "重要更新通知",
-          "en": "Important Update Notification"
+        {
+            "id": 1,
+            "type": "update",
+            "time": 1735205400000,
+            "title": {
+                "zh": "1.1.0版本更新",
+                "en": "1.1.0 Version Update"
+            },
+            "content": {
+                "zh": {
+                    "feature": [
+                        "新增多主机开服模式，可以多台云主机开启一个服务器"
+                    ],
+                    "bug": [
+                        "修复了无mod配置时无法配置mod的BUG"
+                    ],
+                    "opt": [
+                        "优化玩家获取逻辑",
+                        "优化直连IP获取逻辑",
+                        "优化首页按钮逻辑",
+                        "优化日志获取逻辑",
+                        "优化MOD存储逻辑",
+                        "优化dmp启动检查项"
+                    ]
+                },
+                "en": {
+                    "feature": [
+                        "New multi-host mode, allowing multiple cloud hosts to start one server"
+                    ],
+                    "bug": [
+                        "Fixed the bug where mods could not be configured when there was no mod configuration."
+                    ],
+                    "opt": [
+                        "Optimize player acquisition logic",
+                        "Optimize direct connection IP acquisition logic",
+                        "Optimize the Home button logic",
+                        "Optimize log acquisition logic",
+                        "Optimize MOD storage logic",
+                        "Optimize DMP Startup Check Items"
+                    ]
+                }
+            },
+            "author": "开发团队",
+            "priority": {
+                "zh": "高",
+                "en": "high"
+            },
+            "icon": "update-icon.png"
         },
-        "priority": {
-          "zh": "高",
-          "en": "High"
+        {
+            "id": 2,
+            "type": "update",
+            "time": 1737907200000,
+            "title": {
+                "zh": "1.2.0版本更新",
+                "en": "1.2.0 Version Update"
+            },
+            "content": {
+                "zh": {
+                    "feature": [
+                        "新增用户评论功能",
+                        "支持导出数据到多种格式（CSV, PDF）"
+                    ],
+                    "bug": [
+                        "修复了无法上传大文件的问题",
+                        "修正了通知显示时间错误的问题"
+                    ],
+                    "opt": [
+                        "提升了界面加载性能",
+                        "减少了内存占用"
+                    ]
+                },
+                "en": {
+                    "feature": [
+                        "Added user comment functionality",
+                        "Supports data export to multiple formats (CSV, PDF)"
+                    ],
+                    "bug": [
+                        "Fixed issue with uploading large files",
+                        "Corrected notification display time errors"
+                    ],
+                    "opt": [
+                        "Enhanced UI loading performance",
+                        "Reduced memory usage"
+                    ]
+                }
+            },
+            "author": "开发团队",
+            "priority": {
+                "zh": "中",
+                "en": "medium"
+            },
+            "icon": "update-icon.png"
         },
-        "time": "2024-12-29T08:00:00Z",
-        "author": "管理员",
-        "type": "update",
-        "pinned": true,
-        "content": {
-          "zh": {
-            "feature": ["新增置顶功能，用于展示重要通知", "支持多语言切换"],
-            "bug": ["修复了部分浏览器语言检测异常的问题"],
-            "opt": ["优化了通知加载速度"]
-          },
-          "en": {
-            "feature": ["Added pinned functionality to highlight important notifications", "Supports multi-language switching"],
-            "bug": ["Fixed issues with language detection on some browsers"],
-            "opt": ["Improved notification loading speed"]
-          }
+        {
+            "id": 3,
+            "type": "update",
+            "time": 1738000000000,
+            "title": {
+                "zh": "重要更新通知",
+                "en": "Important Update Notification"
+            },
+            "content": {
+                "zh": {
+                    "feature": [
+                        "新增置顶功能，用于展示重要通知"
+                    ],
+                    "bug": [
+                        "修复了置顶功能的相关问题"
+                    ],
+                    "opt": [
+                        "优化了通知加载速度"
+                    ]
+                },
+                "en": {
+                    "feature": [
+                        "Added pinned functionality to highlight important notifications"
+                    ],
+                    "bug": [
+                        "Fixed issues related to the pinned feature"
+                    ],
+                    "opt": [
+                        "Improved the display of pinned notifications"
+                    ]
+                }
+            },
+            "author": "管理员",
+            "priority": {
+                "zh": "高",
+                "en": "high"
+            },
+            "icon": "important-icon.png",
+            "pinned": true
+        },
+        {
+            "id": 4,
+            "type": "reminder",
+            "time": 1738100000000,
+            "title": {
+                "zh": "特别提醒",
+                "en": "Special Reminder"
+            },
+            "content": {
+                "zh": "请确保您已将应用程序更新至最新版本，以获取最佳体验。",
+                "en": "Please ensure that you have updated your application to the latest version for the best experience."
+            },
+            "author": "通知团队",
+            "priority": {
+                "zh": "中",
+                "en": "medium"
+            },
+            "icon": "reminder-icon.png",
+            "pinned": true
         }
-      },
-      {
-        "icon": "https://example.com/pinned2.png",
-        "title": {
-          "zh": "特别提醒",
-          "en": "Special Reminder"
-        },
-        "priority": {
-          "zh": "中",
-          "en": "Medium"
-        },
-        "time": "2024-12-28T12:00:00Z",
-        "author": "通知团队",
-        "type": "reminder",
-        "pinned": true,
-        "content": {
-          "zh": "请确保您已将应用程序更新至最新版本，以获取最佳体验。",
-          "en": "Please ensure that you have updated your application to the latest version for the best experience."
-        }
-      },
-      {
-        "icon": "https://example.com/version1.2.0.png",
-        "title": {
-          "zh": "版本更新：1.2.0",
-          "en": "Version Update: 1.2.0"
-        },
-        "priority": {
-          "zh": "高",
-          "en": "High"
-        },
-        "time": "2024-12-27T10:00:00Z",
-        "author": "开发团队",
-        "type": "update",
-        "pinned": false,
-        "content": {
-          "zh": {
-            "feature": ["新增用户评论功能", "支持导出数据到多种格式（CSV, PDF）"],
-            "bug": ["修复了无法上传大文件的问题", "修正了通知显示时间错误的问题"],
-            "opt": ["提升了界面加载性能", "减少了内存占用"]
-          },
-          "en": {
-            "feature": ["Added user comment functionality", "Supports data export to multiple formats (CSV, PDF)"],
-            "bug": ["Fixed issue with uploading large files", "Corrected notification display time errors"],
-            "opt": ["Enhanced UI loading performance", "Reduced memory usage"]
-          }
-        }
-      },
-      {
-        "icon": "https://example.com/version1.1.0.png",
-        "title": {
-          "zh": "版本更新：1.1.0",
-          "en": "Version Update: 1.1.0"
-        },
-        "priority": {
-          "zh": "中",
-          "en": "Medium"
-        },
-        "time": "2024-11-15T09:00:00Z",
-        "author": "开发团队",
-        "type": "update",
-        "pinned": false,
-        "content": {
-          "zh": {
-            "feature": ["增加多语言支持（中文与英文）", "优化了通知排序逻辑"],
-            "bug": ["修复了部分用户无法加载通知的问题"],
-            "opt": ["改进了界面样式，提升用户体验"]
-          },
-          "en": {
-            "feature": ["Added multi-language support (Chinese and English)", "Improved notification sorting logic"],
-            "bug": ["Fixed issue where some users could not load notifications"],
-            "opt": ["Refined UI design for better user experience"]
-          }
-        }
-      }
     ]
-  }
-  
+}
