@@ -59,6 +59,52 @@
         "en": "medium"
       },
       "icon": "bug-icon.png"
+    },
+    {
+      "id": 3,
+      "type": "update",
+      "time": 1735809600000,
+      "title": {
+        "zh": "1.2.0版本更新",
+        "en": "1.2.0 Version Update"
+      },
+      "content": {
+        "zh": {
+          "feature": ["新增低优先级通知功能，支持更多样式配置"],
+          "bug": ["修复通知排序错误的 BUG"],
+          "opt": ["优化通知卡片样式", "增强性能表现"]
+        },
+        "en": {
+          "feature": ["Added low-priority notification support with enhanced styling options"],
+          "bug": ["Fixed a bug with incorrect notification sorting"],
+          "opt": ["Optimized notification card styles", "Improved performance"]
+        }
+      },
+      "author": "开发团队",
+      "priority": {
+        "zh": "低",
+        "en": "low"
+      },
+      "icon": "update-icon.png"
+    },
+    {
+      "id": 4,
+      "type": "bug",
+      "time": 1735813200000,
+      "title": {
+        "zh": "1.2.0 Bug 通知",
+        "en": "1.2.0 Bug Notification"
+      },
+      "content": {
+        "zh": "修复内容无法正常展示的问题，现已解决",
+        "en": "Fixed an issue where content would not display correctly"
+      },
+      "author": "测试团队",
+      "priority": {
+        "zh": "中",
+        "en": "medium"
+      },
+      "icon": "bug-icon.png"
     }
   ]
 }
