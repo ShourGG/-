@@ -17,7 +17,9 @@
                         "存档管理：备份、恢复和管理游戏存档",
                         "实时监控：查看服务器状态和玩家信息",
                         "多语言支持：支持中文和英文界面"
-                    ]
+                    ],
+                    "bug": [],
+                    "opt": []
                 },
                 "en": {
                     "feature": [
@@ -26,7 +28,9 @@
                         "Save Management: Backup, restore and manage game saves",
                         "Real-time Monitoring: View server status and player information",
                         "Multi-language Support: Chinese and English interface available"
-                    ]
+                    ],
+                    "bug": [],
+                    "opt": []
                 }
             }
         },
