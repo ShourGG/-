@@ -2,37 +2,60 @@
   "announce": [
     {
       "id": 1,
-      "type": "update",
-      "pinned": true,
+      "type": "bug",
+      "version": "2.5",
       "time": 1738000000000,
       "title": {
-        "zh": "紧急维护通知",
-        "en": "Urgent Maintenance Notification"
+        "zh": "修复用户登录问题",
+        "en": "Fixed Login Issue"
       },
       "content": {
         "zh": {
-          "feature": ["新增临时维护公告功能", "支持实时更新通知内容"],
-          "bug": ["修复了通知显示顺序异常的问题"],
-          "opt": ["优化维护模式的用户体验"]
+          "bug": ["修复了用户无法登录的问题", "修复了登录超时的错误"]
         },
         "en": {
-          "feature": ["Added temporary maintenance announcement feature", "Supports real-time notification updates"],
-          "bug": ["Fixed the issue of incorrect notification order display"],
-          "opt": ["Enhanced user experience during maintenance mode"]
+          "bug": ["Fixed the issue where users could not log in", "Fixed login timeout error"]
         }
       },
-      "author": "系统管理员",
+      "author": "开发团队",
       "priority": {
         "zh": "高",
         "en": "high"
       },
-      "icon": "urgent-icon.png"
+      "icon": "bug-icon.png"
     },
     {
       "id": 2,
+      "type": "update",
+      "version": "3.0",
+      "time": 1739000000000,
+      "title": {
+        "zh": "3.0版本更新",
+        "en": "3.0 Version Update"
+      },
+      "content": {
+        "zh": {
+          "feature": ["全新UI设计", "新增夜间模式"],
+          "bug": ["修复了系统卡顿问题"],
+          "opt": ["优化数据加载速度"]
+        },
+        "en": {
+          "feature": ["New UI Design", "Added Dark Mode"],
+          "bug": ["Fixed system lag issue"],
+          "opt": ["Optimized data loading speed"]
+        }
+      },
+      "author": "开发团队",
+      "priority": {
+        "zh": "中",
+        "en": "medium"
+      },
+      "icon": "update-icon.png"
+    },
+    {
+      "id": 3,
       "type": "reminder",
-      "pinned": true,
-      "time": 1738100000000,
+      "time": 1739100000000,
       "title": {
         "zh": "重要提醒",
         "en": "Important Reminder"
@@ -43,58 +66,10 @@
       },
       "author": "运营团队",
       "priority": {
-        "zh": "中",
-        "en": "medium"
-      },
-      "icon": "reminder-icon.png"
-    },
-    {
-      "id": 3,
-      "type": "update",
-      "pinned": false,
-      "time": 1738200000000,
-      "title": {
-        "zh": "版本更新：2.0.0",
-        "en": "Version Update: 2.0.0"
-      },
-      "content": {
-        "zh": {
-          "feature": ["全新UI设计", "新增多语言支持"],
-          "bug": ["修复了登录时偶尔出现的崩溃问题"],
-          "opt": ["提升了数据加载速度", "优化了用户交互体验"]
-        },
-        "en": {
-          "feature": ["Brand new UI design", "Added multi-language support"],
-          "bug": ["Fixed occasional crashes during login"],
-          "opt": ["Improved data loading speed", "Optimized user interaction experience"]
-        }
-      },
-      "author": "开发团队",
-      "priority": {
-        "zh": "高",
-        "en": "high"
-      },
-      "icon": "update-icon.png"
-    },
-    {
-      "id": 4,
-      "type": "reminder",
-      "pinned": false,
-      "time": 1738300000000,
-      "title": {
-        "zh": "备份提醒",
-        "en": "Backup Reminder"
-      },
-      "content": {
-        "zh": "请定期备份重要数据，以免造成不可挽回的损失。",
-        "en": "Please back up important data regularly to avoid irrecoverable losses."
-      },
-      "author": "支持团队",
-      "priority": {
         "zh": "低",
         "en": "low"
       },
-      "icon": "backup-icon.png"
+      "icon": "reminder-icon.png"
     }
   ]
 }
