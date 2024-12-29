@@ -6,18 +6,53 @@
       "time": 1735205400000,
       "title": {
         "zh": "1.1.0版本更新",
-        "en": "1.1.0 version update"
+        "en": "1.1.0 Version Update"
       },
       "content": {
         "zh": {
-          "feature": ["新特性1", "新特性2"],
-          "bug": ["修复了Bug1", "修复了Bug2"]
+          "feature": ["新增多主机开服模式，可以多台云主机开启一个服务器"],
+          "bug": ["修复了无mod配置时无法配置mod的BUG"],
+          "opt": [
+            "优化玩家获取逻辑",
+            "优化直连IP获取逻辑",
+            "优化首页按钮逻辑",
+            "优化日志获取逻辑",
+            "优化MOD存储逻辑",
+            "优化dmp启动检查项"
+          ]
         },
         "en": {
-          "feature": ["New feature 1", "New feature 2"],
-          "bug": ["Fixed Bug 1", "Fixed Bug 2"]
+          "feature": ["New multi-host mode, allowing multiple cloud hosts to start one server"],
+          "bug": ["Fixed the bug where mods could not be configured when there was no mod configuration."],
+          "opt": [
+            "Optimize player acquisition logic",
+            "Optimize direct connection IP acquisition logic",
+            "Optimize the Home button logic",
+            "Optimize log acquisition logic",
+            "Optimize MOD storage logic",
+            "Optimize DMP Startup Check Items"
+          ]
         }
-      }
+      },
+      "author": "开发团队",
+      "priority": "high",
+      "icon": "update-icon.png"
+    },
+    {
+      "id": 2,
+      "type": "bug",
+      "time": 1735303318000,
+      "title": {
+        "zh": "1.1.0 Bug 通知",
+        "en": "1.1.0 Bug Notification"
+      },
+      "content": {
+        "zh": "单节点模式创建存档完成后，请点击保存，不要点击保存并重启和保存并生成新世界，到首页重启和重置；多节点模式不涉及",
+        "en": "After creating the archive in single-host mode, please click \"Save\". Do not click \"Save and Restart\" or \"Save and Generate New World\". Instead, return to the homepage to restart and reset. Multi-host mode is not involved."
+      },
+      "author": "测试团队",
+      "priority": "medium",
+      "icon": "bug-icon.png"
     }
   ]
 }
