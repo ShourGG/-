@@ -23,7 +23,7 @@
         "zh": "高",
         "en": "high"
       },
-      "icon": "bug-icon.png"
+      "icon": "bug-report.png"
     },
     {
       "id": 2,
@@ -52,7 +52,7 @@
         "zh": "中",
         "en": "medium"
       },
-      "icon": "update-icon.png"
+      "icon": "更新.png"
     }
   ]
 }
