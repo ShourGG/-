@@ -3,6 +3,7 @@
     {
       "id": 1,
       "type": "bug",
+      "pinned": true,
       "version": "2.5",
       "time": 1738000000000,
       "title": {
@@ -27,6 +28,7 @@
     {
       "id": 2,
       "type": "update",
+      "pinned": false,
       "version": "3.0",
       "time": 1739000000000,
       "title": {
@@ -51,25 +53,6 @@
         "en": "medium"
       },
       "icon": "update-icon.png"
-    },
-    {
-      "id": 3,
-      "type": "reminder",
-      "time": 1739100000000,
-      "title": {
-        "zh": "重要提醒",
-        "en": "Important Reminder"
-      },
-      "content": {
-        "zh": "请及时更新至最新版本以确保系统正常运行。",
-        "en": "Please update to the latest version to ensure system stability."
-      },
-      "author": "运营团队",
-      "priority": {
-        "zh": "低",
-        "en": "low"
-      },
-      "icon": "reminder-icon.png"
     }
   ]
 }
