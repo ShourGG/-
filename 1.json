@@ -1,0 +1,23 @@
+{
+  "announce": [
+    {
+      "id": 1,
+      "type": "update",
+      "time": 1735205400000,
+      "title": {
+        "zh": "1.1.0版本更新",
+        "en": "1.1.0 version update"
+      },
+      "content": {
+        "zh": {
+          "feature": ["新特性1", "新特性2"],
+          "bug": ["修复了Bug1", "修复了Bug2"]
+        },
+        "en": {
+          "feature": ["New feature 1", "New feature 2"],
+          "bug": ["Fixed Bug 1", "Fixed Bug 2"]
+        }
+      }
+    }
+  ]
+}
