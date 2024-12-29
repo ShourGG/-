@@ -1,158 +1,100 @@
 {
-    "announce": [
-        {
-            "id": 1,
-            "type": "update",
-            "time": 1735205400000,
-            "title": {
-                "zh": "1.1.0版本更新",
-                "en": "1.1.0 Version Update"
-            },
-            "content": {
-                "zh": {
-                    "feature": [
-                        "新增多主机开服模式，可以多台云主机开启一个服务器"
-                    ],
-                    "bug": [
-                        "修复了无mod配置时无法配置mod的BUG"
-                    ],
-                    "opt": [
-                        "优化玩家获取逻辑",
-                        "优化直连IP获取逻辑",
-                        "优化首页按钮逻辑",
-                        "优化日志获取逻辑",
-                        "优化MOD存储逻辑",
-                        "优化dmp启动检查项"
-                    ]
-                },
-                "en": {
-                    "feature": [
-                        "New multi-host mode, allowing multiple cloud hosts to start one server"
-                    ],
-                    "bug": [
-                        "Fixed the bug where mods could not be configured when there was no mod configuration."
-                    ],
-                    "opt": [
-                        "Optimize player acquisition logic",
-                        "Optimize direct connection IP acquisition logic",
-                        "Optimize the Home button logic",
-                        "Optimize log acquisition logic",
-                        "Optimize MOD storage logic",
-                        "Optimize DMP Startup Check Items"
-                    ]
-                }
-            },
-            "author": "开发团队",
-            "priority": {
-                "zh": "高",
-                "en": "high"
-            },
-            "icon": "update-icon.png"
+  "announce": [
+    {
+      "id": 1,
+      "type": "update",
+      "pinned": true,
+      "time": 1738000000000,
+      "title": {
+        "zh": "紧急维护通知",
+        "en": "Urgent Maintenance Notification"
+      },
+      "content": {
+        "zh": {
+          "feature": ["新增临时维护公告功能", "支持实时更新通知内容"],
+          "bug": ["修复了通知显示顺序异常的问题"],
+          "opt": ["优化维护模式的用户体验"]
         },
-        {
-            "id": 2,
-            "type": "update",
-            "time": 1737907200000,
-            "title": {
-                "zh": "1.2.0版本更新",
-                "en": "1.2.0 Version Update"
-            },
-            "content": {
-                "zh": {
-                    "feature": [
-                        "新增用户评论功能",
-                        "支持导出数据到多种格式（CSV, PDF）"
-                    ],
-                    "bug": [
-                        "修复了无法上传大文件的问题",
-                        "修正了通知显示时间错误的问题"
-                    ],
-                    "opt": [
-                        "提升了界面加载性能",
-                        "减少了内存占用"
-                    ]
-                },
-                "en": {
-                    "feature": [
-                        "Added user comment functionality",
-                        "Supports data export to multiple formats (CSV, PDF)"
-                    ],
-                    "bug": [
-                        "Fixed issue with uploading large files",
-                        "Corrected notification display time errors"
-                    ],
-                    "opt": [
-                        "Enhanced UI loading performance",
-                        "Reduced memory usage"
-                    ]
-                }
-            },
-            "author": "开发团队",
-            "priority": {
-                "zh": "中",
-                "en": "medium"
-            },
-            "icon": "update-icon.png"
-        },
-        {
-            "id": 3,
-            "type": "update",
-            "time": 1738000000000,
-            "title": {
-                "zh": "重要更新通知",
-                "en": "Important Update Notification"
-            },
-            "content": {
-                "zh": {
-                    "feature": [
-                        "新增置顶功能，用于展示重要通知"
-                    ],
-                    "bug": [
-                        "修复了置顶功能的相关问题"
-                    ],
-                    "opt": [
-                        "优化了通知加载速度"
-                    ]
-                },
-                "en": {
-                    "feature": [
-                        "Added pinned functionality to highlight important notifications"
-                    ],
-                    "bug": [
-                        "Fixed issues related to the pinned feature"
-                    ],
-                    "opt": [
-                        "Improved the display of pinned notifications"
-                    ]
-                }
-            },
-            "author": "管理员",
-            "priority": {
-                "zh": "高",
-                "en": "high"
-            },
-            "icon": "important-icon.png",
-            "pinned": true
-        },
-        {
-            "id": 4,
-            "type": "reminder",
-            "time": 1738100000000,
-            "title": {
-                "zh": "特别提醒",
-                "en": "Special Reminder"
-            },
-            "content": {
-                "zh": "请确保您已将应用程序更新至最新版本，以获取最佳体验。",
-                "en": "Please ensure that you have updated your application to the latest version for the best experience."
-            },
-            "author": "通知团队",
-            "priority": {
-                "zh": "中",
-                "en": "medium"
-            },
-            "icon": "reminder-icon.png",
-            "pinned": true
+        "en": {
+          "feature": ["Added temporary maintenance announcement feature", "Supports real-time notification updates"],
+          "bug": ["Fixed the issue of incorrect notification order display"],
+          "opt": ["Enhanced user experience during maintenance mode"]
         }
-    ]
+      },
+      "author": "系统管理员",
+      "priority": {
+        "zh": "高",
+        "en": "high"
+      },
+      "icon": "urgent-icon.png"
+    },
+    {
+      "id": 2,
+      "type": "reminder",
+      "pinned": true,
+      "time": 1738100000000,
+      "title": {
+        "zh": "重要提醒",
+        "en": "Important Reminder"
+      },
+      "content": {
+        "zh": "请及时更新至最新版本以确保系统正常运行。",
+        "en": "Please update to the latest version to ensure system stability."
+      },
+      "author": "运营团队",
+      "priority": {
+        "zh": "中",
+        "en": "medium"
+      },
+      "icon": "reminder-icon.png"
+    },
+    {
+      "id": 3,
+      "type": "update",
+      "pinned": false,
+      "time": 1738200000000,
+      "title": {
+        "zh": "版本更新：2.0.0",
+        "en": "Version Update: 2.0.0"
+      },
+      "content": {
+        "zh": {
+          "feature": ["全新UI设计", "新增多语言支持"],
+          "bug": ["修复了登录时偶尔出现的崩溃问题"],
+          "opt": ["提升了数据加载速度", "优化了用户交互体验"]
+        },
+        "en": {
+          "feature": ["Brand new UI design", "Added multi-language support"],
+          "bug": ["Fixed occasional crashes during login"],
+          "opt": ["Improved data loading speed", "Optimized user interaction experience"]
+        }
+      },
+      "author": "开发团队",
+      "priority": {
+        "zh": "高",
+        "en": "high"
+      },
+      "icon": "update-icon.png"
+    },
+    {
+      "id": 4,
+      "type": "reminder",
+      "pinned": false,
+      "time": 1738300000000,
+      "title": {
+        "zh": "备份提醒",
+        "en": "Backup Reminder"
+      },
+      "content": {
+        "zh": "请定期备份重要数据，以免造成不可挽回的损失。",
+        "en": "Please back up important data regularly to avoid irrecoverable losses."
+      },
+      "author": "支持团队",
+      "priority": {
+        "zh": "低",
+        "en": "low"
+      },
+      "icon": "backup-icon.png"
+    }
+  ]
 }
