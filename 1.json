@@ -1,6 +1,52 @@
 {
  "announce": [
    {
+     "id": 3,
+     "type": "update",
+     "time": 1735801600000,
+     "title": {
+       "zh": "2.0版本更新：添加消息通知功能",
+       "en": "Version 2.0 Update: Added Notification System"
+     },
+     "content": {
+       "zh": {
+         "feature": [
+           "消息通知面板：查看游戏更新、bug修复等重要通知",
+           "多语言支持：支持中英文切换",
+           "实时通知：及时获取重要更新信息",
+           "通知状态管理：已读/未读状态追踪"
+         ],
+         "bug": [
+           "修复了节点拖拽位置偏移问题",
+           "修复了变量保存异常问题"
+         ],
+         "opt": [
+           "优化了通知加载性能",
+           "改进了UI交互体验",
+           "增强了错误处理机制"
+         ]
+       },
+       "en": {
+         "feature": [
+           "Notification Panel: View game updates, bug fixes and important notices",
+           "Multi-language Support: Switch between Chinese and English",
+           "Real-time Notifications: Get important updates timely",
+           "Notification Status: Track read/unread status"
+         ],
+         "bug": [
+           "Fixed node dragging position offset issue",
+           "Fixed variable saving abnormality"
+         ],
+         "opt": [
+           "Optimized notification loading performance",
+           "Improved UI interaction experience",
+           "Enhanced error handling mechanism"
+         ]
+       }
+     },
+     "version": "2.0"
+   },
+   {
      "id": 1,
      "type": "welcome",
      "pinned": true,
@@ -39,7 +85,7 @@
    {
      "id": 2,
      "type": "update",
-     "time": 1735715200000, 
+     "time": 1735715200000,
      "title": {
        "zh": "1.0版本开发进度",
        "en": "Version 1.0 Development Progress"
@@ -85,5 +131,6 @@
        }
      }
    }
- ]
+ ],
+ "version": "2.0"
 }
