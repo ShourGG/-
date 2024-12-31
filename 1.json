@@ -1,154 +1,89 @@
 {
-    "announce": [
-        {
-            "id": 1,
-            "type": "welcome",
-            "pinned": true,
-            "time": 1735628800000,
-            "title": {
-                "zh": "欢迎使用饥荒服务器管理系统",
-                "en": "Welcome to DST Server Management System"
-            },
-            "content": {
-                "zh": {
-                    "feature": [
-                        "便捷的服务器管理：一键开启/关闭服务器",
-                        "MOD 管理：轻松添加、删除和更新 MOD",
-                        "存档管理：备份、恢复和管理游戏存档",
-                        "实时监控：查看服务器状态和玩家信息",
-                        "多语言支持：支持中文和英文界面"
-                    ],
-                    "bug": [],
-                    "opt": []
-                },
-                "en": {
-                    "feature": [
-                        "Easy Server Management: One-click server start/stop",
-                        "MOD Management: Easily add, remove and update MODs",
-                        "Save Management: Backup, restore and manage game saves",
-                        "Real-time Monitoring: View server status and player information",
-                        "Multi-language Support: Chinese and English interface available"
-                    ],
-                    "bug": [],
-                    "opt": []
-                }
-            }
-        },
-        {
-            "id": 4,
-            "type": "update",
-            "time": 1735801600000,
-            "title": {
-                "zh": "2.0.1版本更新",
-                "en": "2.0.1 version update"
-            },
-            "content": {
-                "zh": {
-                    "feature": [
-                        "新增自动备份功能",
-                        "新增服务器资源使用预警",
-                        "新增服务器状态邮件通知"
-                    ],
-                    "bug": [
-                        "修复了高负载性能问题",
-                        "修复了数据同步延迟问题",
-                        "修复了监控面板数据不准确的问题"
-                    ],
-                    "opt": [
-                        "优化了内存使用效率",
-                        "改进了数据同步机制",
-                        "优化了日志记录系统"
-                    ]
-                },
-                "en": {
-                    "feature": [
-                        "Added automatic backup feature",
-                        "Added server resource usage alerts",
-                        "Added server status email notifications"
-                    ],
-                    "bug": [
-                        "Fixed high load performance issues",
-                        "Fixed data synchronization delay",
-                        "Fixed inaccurate monitoring dashboard data"
-                    ],
-                    "opt": [
-                        "Optimized memory usage",
-                        "Improved data synchronization mechanism",
-                        "Enhanced logging system"
-                    ]
-                }
-            }
-        },
-        {
-            "id": 3,
-            "type": "bug",
-            "fixed": true,
-            "time": 1735715200000,
-            "title": {
-                "zh": "2.0.0 性能问题通知",
-                "en": "2.0.0 Performance Issue Notice"
-            },
-            "content": {
-                "zh": {
-                    "bug": [
-                        "在高负载情况下可能出现性能下降",
-                        "部分用户报告数据同步延迟问题",
-                        "监控面板可能显示不准确数据"
-                    ]
-                },
-                "en": {
-                    "bug": [
-                        "Performance degradation under high load",
-                        "Data synchronization delay reported by some users",
-                        "Monitoring dashboard may show inaccurate data"
-                    ]
-                }
-            }
-        },
-        {
-            "id": 2,
-            "type": "update",
-            "time": 1735628800000,
-            "title": {
-                "zh": "2.0.0版本更新",
-                "en": "2.0.0 version update"
-            },
-            "content": {
-                "zh": {
-                    "feature": [
-                        "新增实时在线玩家列表功能",
-                        "新增服务器性能监控面板",
-                        "新增多语言国际化支持"
-                    ],
-                    "bug": [
-                        "修复了服务器意外关闭时的数据丢失问题",
-                        "修复了玩家数据统计不准确的问题"
-                    ],
-                    "opt": [
-                        "优化了服务器启动速度",
-                        "优化了数据库查询性能",
-                        "优化了用户界面响应速度",
-                        "改进了错误提示信息的展示方式"
-                    ]
-                },
-                "en": {
-                    "feature": [
-                        "Added real-time online player list",
-                        "Added server performance monitoring dashboard",
-                        "Added multi-language support"
-                    ],
-                    "bug": [
-                        "Fixed data loss issue when server shuts down unexpectedly",
-                        "Fixed inaccurate player statistics"
-                    ],
-                    "opt": [
-                        "Improved server startup speed",
-                        "Optimized database query performance",
-                        "Enhanced UI response time",
-                        "Improved error message display"
-                    ]
-                }
-            }
-        }
-    ]
+ "announce": [
+   {
+     "id": 1,
+     "type": "welcome",
+     "pinned": true,
+     "time": 1735628800000,
+     "title": {
+       "zh": "欢迎使用Twine游戏开发工具",
+       "en": "Welcome to Twine Game Development Tool"
+     },
+     "content": {
+       "zh": {
+         "feature": [
+           "可视化故事创作：通过简单的节点连接创建游戏故事",
+           "富文本编辑：支持文本格式化、图片、音频等多媒体内容",
+           "条件逻辑：设置变量和条件分支，创建复杂的游戏机制",
+           "CSS样式：自定义界面风格，打造独特的游戏外观",
+           "JavaScript扩展：通过脚本实现高级功能和特效",
+           "一键导出：快速生成可分享的HTML游戏文件"
+         ],
+         "bug": [],
+         "opt": []
+       },
+       "en": {
+         "feature": [
+           "Visual Story Creation: Create game stories through simple node connections",
+           "Rich Text Editing: Support text formatting, images, audio and other multimedia",
+           "Conditional Logic: Set variables and branches for complex game mechanics",
+           "CSS Styling: Customize interface style for unique game appearance",
+           "JavaScript Extensions: Implement advanced features through scripting",
+           "One-click Export: Generate shareable HTML game files"
+         ],
+         "bug": [],
+         "opt": []
+       }
+     }
+   },
+   {
+     "id": 2,
+     "type": "update",
+     "time": 1735715200000, 
+     "title": {
+       "zh": "1.0版本开发进度",
+       "en": "Version 1.0 Development Progress"
+     },
+     "content": {
+       "zh": {
+         "feature": [
+           "基础故事编辑器 [进行中]",
+           "节点连接系统 [已完成]",
+           "变量系统 [进行中]",
+           "基础UI界面 [已完成]",
+           "导出功能 [待开发]"
+         ],
+         "bug": [
+           "节点拖拽时可能出现位置偏移",
+           "某些情况下变量无法正确保存",
+           "导入大型故事文件时可能崩溃"
+         ],
+         "opt": [
+           "持续优化编辑器性能",
+           "改进用户界面交互",
+           "完善开发文档"
+         ]
+       },
+       "en": {
+         "feature": [
+           "Basic Story Editor [In Progress]",
+           "Node Connection System [Completed]",
+           "Variable System [In Progress]",
+           "Basic UI Interface [Completed]",
+           "Export Function [Pending]"
+         ],
+         "bug": [
+           "Node position may offset during dragging",
+           "Variables may not save correctly in certain cases",
+           "May crash when importing large story files"
+         ],
+         "opt": [
+           "Continuously optimize editor performance",
+           "Improve UI interactions",
+           "Enhance development documentation"
+         ]
+       }
+     }
+   }
+ ]
 }
