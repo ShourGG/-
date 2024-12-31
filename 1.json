@@ -1,148 +1,154 @@
 {
-"version": "2.0",
-"announce": [
-  {
-    "id": 3,
-    "type": "update",
-    "time": 1735801600000,
-    "title": {
-      "zh": "2.0版本更新",
-      "en": "Version 2.0 Update"  
-    },
-    "content": {
-      "zh": {
-        "feature": [
-          "新增消息通知栏系统",
-          "多语言支持(中文/英文)",
-          "已读/未读状态追踪",
-          "重要消息置顶功能",
-          "错误重试机制"
-        ],
-        "bug": [
-          "修复了1.0版本中节点拖拽偏移问题",
-          "修复了变量保存不正确的问题",
-          "修复了大型文件导入崩溃的问题"
-        ],
-        "opt": [
-          "优化了通知系统的性能",
-          "改进了用户界面交互体验",
-          "增强了系统稳定性"
-        ]
+  "version": "2.0",
+  "announce": [
+    {
+      "id": 4,
+      "type": "update",
+      "time": 1735801600000,
+      "title": {
+        "zh": "2.0版本更新公告",
+        "en": "Version 2.0 Update"
       },
-      "en": {
-        "feature": [
-          "Added notification system",
-          "Multi-language support (Chinese/English)",
-          "Read/Unread status tracking",
-          "Important message pinning",
-          "Error retry mechanism"
-        ],
-        "bug": [
-          "Fixed node dragging offset issue from v1.0",
-          "Fixed variable saving issue",
-          "Fixed crash when importing large files"
-        ],
-        "opt": [
-          "Optimized notification system performance",
-          "Improved UI/UX",
-          "Enhanced system stability"
-        ]
-      }
-    }
-  },
-  {
-    "id": 2,
-    "type": "update",
-    "time": 1735715200000,
-    "title": {
-      "zh": "1.0版本开发进度",
-      "en": "Version 1.0 Development Progress"
-    },
-    "content": {
-      "zh": {
-        "feature": [
-          "基础故事编辑器 [进行中]",
-          "节点连接系统 [已完成]",
-          "变量系统 [进行中]",
-          "基础UI界面 [已完成]",
-          "导出功能 [待开发]"
-        ],
-        "bug": [
-            { 
-              "text": "修复了1.0版本中节点拖拽偏移问题",
-              "fixed": true
-            },
-            {
-              "text": "修复了变量保存不正确的问题", 
-              "fixed": true
-            },
-            {
-              "text": "修复了大型文件导入崩溃的问题",
-              "fixed": true 
-            }
+      "content": {
+        "zh": {
+          "feature": [
+            "新增消息通知栏系统",
+            "多语言支持(中文/英文)",
+            "已读/未读状态追踪"
           ],
-        "opt": [
-          "持续优化编辑器性能",
-          "改进用户界面交互",
-          "完善开发文档"
-        ]
-      },
-      "en": {
-        "feature": [
-          "Basic Story Editor [In Progress]",
-          "Node Connection System [Completed]",
-          "Variable System [In Progress]",
-          "Basic UI Interface [Completed]",
-          "Export Function [Pending]"
-        ],
-        "bug": [
-          "Node position may offset during dragging",
-          "Variables may not save correctly in certain cases",
-          "May crash when importing large story files"
-        ],
-        "opt": [
-          "Continuously optimize editor performance",
-          "Improve UI interactions",
-          "Enhance development documentation"
-        ]
+          "bug": [
+            "修复了1.0版本遗留的所有问题"
+          ],
+          "opt": [
+            "优化了通知系统的性能",
+            "改进了用户界面交互体验"
+          ]
+        },
+        "en": {
+          "feature": [
+            "Added notification system",
+            "Multi-language support (Chinese/English)",
+            "Read/Unread status tracking"
+          ],
+          "bug": [
+            "Fixed all remaining issues from version 1.0"
+          ],
+          "opt": [
+            "Optimized notification system performance",
+            "Improved UI/UX"
+          ]
+        }
       }
-    }
-  },
-  {
-    "id": 1,
-    "type": "welcome",
-    "pinned": true,
-    "time": 1735628800000,
-    "title": {
-      "zh": "欢迎使用Twine游戏开发工具",
-      "en": "Welcome to Twine Game Development Tool"
     },
-    "content": {
-      "zh": {
-        "feature": [
-          "可视化故事创作：通过简单的节点连接创建游戏故事",
-          "富文本编辑：支持文本格式化、图片、音频等多媒体内容",
-          "条件逻辑：设置变量和条件分支，创建复杂的游戏机制",
-          "CSS样式：自定义界面风格，打造独特的游戏外观",
-          "JavaScript扩展：通过脚本实现高级功能和特效",
-          "一键导出：快速生成可分享的HTML游戏文件"
-        ],
-        "bug": [],
-        "opt": []
+    {
+      "id": 3,
+      "type": "bug",
+      "time": 1735715200000,
+      "title": {
+        "zh": "1.0版本已知问题",
+        "en": "Known Issues in Version 1.0"
       },
-      "en": {
-        "feature": [
-          "Visual Story Creation: Create game stories through simple node connections",
-          "Rich Text Editing: Support text formatting, images, audio and other multimedia",
-          "Conditional Logic: Set variables and branches for complex game mechanics",
-          "CSS Styling: Customize interface style for unique game appearance", 
-          "JavaScript Extensions: Implement advanced features through scripting",
-          "One-click Export: Generate shareable HTML game files"
-        ],
-        "bug": [],
-        "opt": []
+      "content": {
+        "zh": {
+          "bug": [
+            {
+              "text": "节点拖拽位置偏移",
+              "fixed": true
+            },
+            {
+              "text": "变量保存异常",
+              "fixed": true
+            },
+            {
+              "text": "导入大文件崩溃",
+              "fixed": false
+            }
+          ]
+        },
+        "en": {
+          "bug": [
+            {
+              "text": "Node dragging position offset",
+              "fixed": true
+            },
+            {
+              "text": "Variable saving error",
+              "fixed": true
+            },
+            {
+              "text": "Crash when importing large files",
+              "fixed": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "type": "update",
+      "time": 1735628800000,
+      "title": {
+        "zh": "1.0版本正式发布",
+        "en": "Version 1.0 Release"
+      },
+      "content": {
+        "zh": {
+          "feature": [
+            "基础故事编辑器",
+            "节点连接系统",
+            "变量系统"
+          ],
+          "bug": [],
+          "opt": [
+            "基础功能完善",
+            "界面交互优化"
+          ]
+        },
+        "en": {
+          "feature": [
+            "Basic Story Editor",
+            "Node Connection System",
+            "Variable System"
+          ],
+          "bug": [],
+          "opt": [
+            "Basic features improvement",
+            "UI interaction optimization"
+          ]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "type": "welcome",
+      "pinned": true,
+      "time": 1735542400000,
+      "title": {
+        "zh": "欢迎使用Twine游戏开发工具",
+        "en": "Welcome to Twine Game Development Tool"
+      },
+      "content": {
+        "zh": {
+          "feature": [
+            "可视化故事创作",
+            "富文本编辑",
+            "条件逻辑",
+            "一键导出"
+          ],
+          "bug": [],
+          "opt": []
+        },
+        "en": {
+          "feature": [
+            "Visual Story Creation",
+            "Rich Text Editing",
+            "Conditional Logic",
+            "One-click Export"
+          ],
+          "bug": [],
+          "opt": []
+        }
       }
     }
-  }
-]
+  ]
 }
