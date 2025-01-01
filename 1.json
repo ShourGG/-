@@ -1,6 +1,48 @@
 {
-  "version": "2.0",
+  "version": "2.1",
+  "downloadUrl": "https://example.com/download/twine-2.1.zip",
   "announce": [
+    {
+      "id": 5,
+      "type": "update",
+      "time": 1735888000000,
+      "title": {
+        "zh": "2.1版本更新公告",
+        "en": "Version 2.1 Update"
+      },
+      "content": {
+        "zh": {
+          "feature": [
+            "新增版本更新提醒系统",
+            "添加一键更新功能",
+            "支持今日不再提醒选项"
+          ],
+          "bug": [
+            "修复了部分界面显示异常的问题",
+            "修复了语言切换可能导致的显示错误"
+          ],
+          "opt": [
+            "优化了更新提醒的用户体验",
+            "改进了通知系统的性能表现"
+          ]
+        },
+        "en": {
+          "feature": [
+            "Added version update notification system",
+            "Added one-click update function",
+            "Added 'Don't remind me today' option"
+          ],
+          "bug": [
+            "Fixed some UI display issues",
+            "Fixed display errors that may occur during language switching"
+          ],
+          "opt": [
+            "Improved update notification user experience",
+            "Enhanced notification system performance"
+          ]
+        }
+      }
+    },
     {
       "id": 4,
       "type": "update",
